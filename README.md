@@ -2,14 +2,14 @@
 
 * Create **.ssh** directory in the home directory if doesn't exist.
 
-       ```
-       mkdir ~/.ssh
-       ```
+    ```
+    mkdir ~/.ssh
+    ```
 * Create a file with name **authorized\_keys** and copy your public key.
 
-       ```
-       nano ~/.ssh/authorized_keys
-       ```
+    ```
+    nano ~/.ssh/authorized_keys
+    ```
 * Restart ssh service.
 
     ```
