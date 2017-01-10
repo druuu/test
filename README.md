@@ -54,5 +54,5 @@
 * Run the script:
 
     ```
-    sh block.sh
+    sudo sh block.sh
     ```
