@@ -31,7 +31,7 @@
     ```
 
 
-##Block All incoming and outgoing traffic except for specified IP
+##Block All incoming and outgoing traffic except for specific IP
 
 * Create a shell script with name block.sh and following contents:
 
