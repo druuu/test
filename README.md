@@ -1,5 +1,6 @@
 ##Enable SSH access
 
+===============================
 * Create **.ssh** directory in the home directory if doesn't exist.
 
        ```
@@ -15,3 +16,4 @@
     ```
     sudo service ssh restart
     ```
+===============================
