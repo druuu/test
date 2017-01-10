@@ -33,6 +33,8 @@
 
 ##Block All incoming and outgoing traffic except for specified IP
 
+* Create a shell script with following contents:
+
     ```
     #!/bin/sh
 
