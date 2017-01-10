@@ -41,7 +41,7 @@
     iptables --policy INPUT DROP
     iptables -P FORWARD DROP
     
-    iptables -A INPUT -s \<your_ip_address\> -j ACCEPT
+    iptables -A INPUT -s <your_ip_address> -j ACCEPT
 
     iptables-save
     ```
