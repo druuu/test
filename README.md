@@ -29,3 +29,15 @@
     ```
     sudo service ssh restart
     ```
+
+
+##Block All incoming and outgoing traffic except for specified IP
+
+    ```
+    #!/bin/sh
+
+    iptables --policy INPUT DROP
+    iptables -P FORWARD DROP
+    
+    iptables -A INPUT -s 183.82.113.154 -j ACCEPT
+    ```
