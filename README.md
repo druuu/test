@@ -17,16 +17,15 @@
     ```
 
 
->
->
->
->
->
->
 ##Disable SSH Password Authentication
 
 * Open /etc/ssh/sshd_config and add the following line
 
     ```
     PasswordAuthentication no
+    ```
+* Restart ssh service.
+    
+    ```
+    sudo service ssh restart
     ```
