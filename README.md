@@ -1,6 +1,5 @@
 ##Enable SSH access
 
-===============================
 * Create **.ssh** directory in the home directory if doesn't exist.
 
        ```
@@ -16,4 +15,11 @@
     ```
     sudo service ssh restart
     ```
-===============================
+
+##Disable SSH Password Authentication
+
+* Open /etc/ssh/sshd_config and add the following line
+
+    ```
+    PasswordAuthentication no
+    ```
