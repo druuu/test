@@ -33,7 +33,8 @@
 
 ##Block All incoming and outgoing traffic except for specified IP
 
-* Create a shell script with following contents:
+* Create a shell script with name block.sh and following contents:
+ * Replace your_ip_address with your ip address
 
     ```
     #!/bin/sh
@@ -42,4 +43,16 @@
     iptables -P FORWARD DROP
     
     iptables -A INPUT -s 183.82.113.154 -j ACCEPT
+
+    iptables-save
+    ```
+* Make the file executable:
+
+    ```
+    sudo chmod +x block.sh
+    ```
+* Run the script:
+
+    ```
+    sh block.sh
     ```
