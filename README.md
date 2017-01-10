@@ -5,8 +5,13 @@
        ```
        mkdir ~/.ssh
        ```
-* Create a file with name **authorized\_keys**
+* Create a file with name **authorized\_keys** and copy your public key.
 
-       ```sh
-       touch ~/.ssh/authorized_keys
        ```
+       nano ~/.ssh/authorized_keys
+       ```
+* Restart ssh service.
+
+    ```
+    sudo service ssh restart
+    ```
